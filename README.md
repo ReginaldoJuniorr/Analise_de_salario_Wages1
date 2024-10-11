@@ -36,7 +36,7 @@ salario
 ```
 
 
-## Para descubir a média sálarial, faremos o seguinte comando:
+## Para descubir a média salarial, faremos o seguinte comando:
 
 ```{r}
 média<-mean(salario)
@@ -50,7 +50,7 @@ média
 
 O salário médio por hora é U$ 5,28.
 
-## Da mesma forma fazremos com a mediana:
+## Da mesma forma faremos com a mediana:
 
 ```{r}
 mediana<-median(salario)
