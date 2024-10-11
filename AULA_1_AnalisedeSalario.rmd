@@ -1,9 +1,3 @@
-Vamos fazer uma análise de salários (U$/hora) de 40 pessoas, obtidos por 
-meio do arquivo Wages1, disponível na biblioteca Ecdat, do Sistema R.
-A análise consistirá no cálculo das medidas de tendência central, 
-variabilidade, elaboração de tabela de distribuição de frequências, diagrama de 
-caixa e histograma de frequências.
-
 ## começamos instalando a biblioteca "Ecdat"
 
 ```{r}
@@ -17,13 +11,11 @@ install.packages("Ecdat")
 salario<-c(3.67,5.31,3.74,8.57,4.11,6.96,6.13,3.22,4.60,7.66,6.01,4.70,5.69,4.35,2.84,1.99,4.77,10.31,4.17,1.71,4.07,8.35,7.47,3.16,3.27,4.41,0.92,11.13,6.15,1.07,2.14,8.23,3.20,4.41,12.10,4.37,6.79,7.04,7.46,4.90)
 ```
 
-## para visualizar o objeto salario, basta digitar
-
 ```{r}
 salario
 ```
 
-o R mostrará os dados, dessa forma:
+o R mostra os dados, dessa forma:
 
 > salario
  [1]  3.67  5.31  3.74  8.57  4.11  6.96  6.13  3.22  4.60  7.66  6.01  4.70
@@ -32,13 +24,13 @@ o R mostrará os dados, dessa forma:
 [37]  6.79  7.04  7.46  4.90
 
 
-## para descubir a média sálarial, faremos o seguinte comando
+## descobrindo a média sálarial
 
 ```{r}
 média<-mean(salario)
 ```
 
-e para consulta-la 
+para consulta-la 
 
 ```{r}
 média
