@@ -35,7 +35,7 @@ salario
 ```
 
 
-## Para descubir a média salarial, faremos o seguinte comando:
+## Para descubrir a média salarial, faremos o seguinte comando:
 
 ```{r}
 média<-mean(salario)
